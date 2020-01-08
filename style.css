@@ -209,7 +209,7 @@ aside .fa-circle
 {
 	visibility: hidden;
 }
-@media screen and (max-width: 690px)
+@media handheld and (max-width: 690px)
 {
 	*
 	{
