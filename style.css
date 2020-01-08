@@ -241,8 +241,8 @@ aside .fa-circle
 	{
 		display: inline-block; 
 		text-align: left;
-		padding: 0px 5px 0px 5px;
-		margin: 0px 10px 0px 7px;
+		padding: 0px 1px 0px 1px;
+		margin: 0px 7px 0px 7px;
 		box-shadow: 3px 3px 0px rgb(253, 67, 69);
 		border-radius: 5px;
 
@@ -315,4 +315,5 @@ aside .fa-circle
 		width: 580px;
 		line-height: 30px;
 	}
+	
 }
