@@ -1,0 +1,318 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff2') format('woff2'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('Roboto-Light-webfont.eot');
+    src: url('Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Light-webfont.woff2') format('woff2'),
+         url('Roboto-Light-webfont.woff') format('woff'),
+         url('Roboto-Light-webfont.ttf') format('truetype'),
+         url('Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*
+{
+	font-family: 'robotoregular';
+	color: rgb(38, 53, 71);
+	pointer-events: none;
+}
+a
+{
+	text-decoration: none;
+
+}
+
+body
+{
+	width: 1200PX;
+    margin: left;
+}
+h1
+{
+	font-family: 'robotolight';
+	margin-left: 550px;
+	font-size: 70px;
+
+}
+span .underlined
+{
+	border-bottom: 4px solid rgb(253, 67, 69);
+	font-style: normal;
+}
+h1 .redcolor
+{
+	color: rgb(253, 67, 69);
+	font-style: normal;
+}
+
+h1 span
+{
+	display: block;
+	font-size: 0.4em;
+}
+
+section h2
+{
+	border-bottom: 4px solid rgb(38, 53, 71);
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+h3
+{
+	margin-left: 350px;
+}
+p span
+{
+	display: block;
+	color: white;
+}
+div
+{
+	font-size: 0.8em;
+	font-family: 'robotolight';
+	color: grey;
+}
+aside
+{
+	position: absolute;
+	line-height: 40px;
+	height: 100%;
+	padding-bottom:700px; 
+	float: left;
+	width: 350px;
+	top: 0px;
+	padding-top: 158px;
+	background-color: rgb(38, 53, 71);
+	left: 0px;
+
+}
+aside h2
+{
+	color: rgb(38, 53, 71);
+	background-color: rgb(253, 253, 253);
+	font-size: 1.4em;
+	text-align: center;
+}
+aside p
+{
+	padding-left: 30px;
+	line-height: 35px;
+	padding-right: 20px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	color: white;
+
+}
+
+aside .fas
+{
+	margin-right: -5px;
+	color: rgb(253, 253, 253);
+	font-size: 2.2em;
+	letter-spacing: 1em;
+	width: 35.2px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-left: 40px;
+	margin-top: 35px;
+	border: 3px solid rgb(253, 67, 69);
+	border-radius: 50%;
+}
+
+article
+{
+	margin-bottom: 135px;
+}
+
+article p
+{
+	margin-left: 350px;
+}
+article span
+{
+	position: absolute;
+	margin-top: -60px;
+
+}
+section
+{
+	margin-left: 350px;
+	margin-top: 70px;
+	padding: 20px;
+}
+img
+{
+	padding-left: 100px;
+}
+
+.contenu
+{
+	text-align: left;
+	padding-left: 15px;
+	font-size: 0.85em;
+	font-family: 'robotolight';
+	margin-left: 350px;
+}
+.fa, .fab, .fad, .fal, .far, .fas
+{
+	margin-right: 30px;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: rgb(253, 67, 69);
+    font-size: 1.4em;
+}
+.propos
+{
+	padding-bottom: 250px;
+	line-height: 20px;
+}
+img
+{
+	padding: 0.5px;
+	margin-left: 50px;
+	margin-top: -127px;
+	border: 3px solid rgb(253, 67, 69);
+	border-radius: 50%;
+}
+aside .fa-circle
+{
+	color: green;
+	font-size: 0.7em;
+	border: none;
+	padding: 0px 0px 0px 0px;
+	display: inline;
+	margin-left: 5px;
+	left: 10px;
+}
+.lang
+{
+	color: rgb(254, 202, 7);
+}
+.Respon
+{
+	visibility: hidden;
+}
+@media screen and (max-width: 690px)
+{
+	*
+	{
+		pointer-events: all;
+	}
+	body
+	{
+		max-width: 690px;
+		margin: auto;
+	}
+	h1
+	{
+		position: relative;
+		margin-left: 160px;
+		display: block;
+		font-size: 60px;
+	}
+	aside
+	{
+		float: none;
+		position: relative;
+		width: auto;
+		font-size: 12px;
+		padding: 10px 0px 10px 0px;
+
+
+	}
+	aside h2
+	{
+		display: inline-block; 
+		text-align: left;
+		padding: 0px 5px 0px 5px;
+		margin: 0px 10px 0px 7px;
+		box-shadow: 3px 3px 0px rgb(253, 67, 69);
+		border-radius: 5px;
+
+
+	}
+	aside h2:hover
+	{
+		background-color: rgb(214, 214, 214);
+
+	}
+	img
+	{
+		position: absolute;
+		width: 90px;
+		margin-top: -169px;
+		margin-left: 35px;
+	}
+	aside p
+	{
+		display: none;
+		padding: 0px 5px 0px 5px;
+		margin: 0px 0px 0px 0px;
+		width: 150px;
+	}
+	aside .fas
+	{
+		display: none;
+	}
+	section
+	{
+		position: absolute;
+		margin-left: 10px;
+		margin-top: 20px;
+		padding: 20px;
+	}
+	article
+	{
+		pointer-events: none;
+		margin-bottom: 40px;
+
+	}
+	.Respon
+	{
+		visibility: visible;
+		border: none;
+	}
+	span .underlined
+	{
+	margin-left: -35px;
+	}
+	.moi
+	{
+		width: 580px;
+		line-height: 30px;
+	}
+	i.fas.fa-basketball-ball
+	{
+		font-size: 60px; 
+	}
+	i.fas.fa-snowboarding
+	{
+		font-size: 60px;
+	}
+	i.fas.fa-dice-d20
+	{
+		font-size: 60px;
+	}
+	.loisirs
+	{
+		width: 580px;
+		line-height: 30px;
+	}
+}
