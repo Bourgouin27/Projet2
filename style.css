@@ -2,7 +2,6 @@
     font-family: 'robotoregular';
     src: url('Roboto-Regular-webfont.eot');
     src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-Regular-webfont.woff2') format('woff2'),
          url('Roboto-Regular-webfont.woff') format('woff'),
          url('Roboto-Regular-webfont.ttf') format('truetype'),
          url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
@@ -14,7 +13,6 @@
     font-family: 'robotolight';
     src: url('Roboto-Light-webfont.eot');
     src: url('Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-Light-webfont.woff2') format('woff2'),
          url('Roboto-Light-webfont.woff') format('woff'),
          url('Roboto-Light-webfont.ttf') format('truetype'),
          url('Roboto-Light-webfont.svg#robotolight') format('svg');
@@ -88,8 +86,6 @@ aside
 {
 	position: absolute;
 	line-height: 40px;
-	height: 100%;
-	padding-bottom:700px; 
 	float: left;
 	width: 350px;
 	top: 0px;
