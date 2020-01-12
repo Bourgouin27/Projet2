@@ -23,44 +23,111 @@
 *
 {
 	font-family: 'robotoregular';
-	color: rgb(38, 53, 71);
-	pointer-events: none;
 }
-a
+header
 {
-	text-decoration: none;
-
-}
-
-body
-{
-	width: 1200PX;
-    margin: left;
+	display: flex;
+	flex-direction: column;
+	color: rgb(28, 53, 71);
 }
 h1
 {
 	font-family: 'robotolight';
 	margin-left: 550px;
 	font-size: 70px;
-
-}
-span .underlined
-{
-	border-bottom: 4px solid rgb(253, 67, 69);
-	font-style: normal;
 }
 h1 .redcolor
 {
 	color: rgb(253, 67, 69);
 	font-style: normal;
 }
-
+span .underlined
+{
+	border-bottom: 4px solid rgb(253, 67, 69);
+	font-style: normal;
+}
 h1 span
 {
 	display: block;
 	font-size: 0.4em;
+	margin-bottom: 50px;
 }
 
+aside
+{
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	width: 350px;
+	bottom: -820px !important;
+	background-color: rgb(28, 53, 71);
+	color: white;
+	top: 0px;
+
+}
+aside h2
+{
+	color: rgb(38, 53, 71);
+	background-color: rgb(253, 253, 253);
+	font-size: 1.4em;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+.propos
+{
+	padding-bottom: 400px;
+}
+aside p
+{
+	line-height: 35px;
+	margin: 0px 10px 0px 30px;
+
+}
+#loisir
+{
+	display: flex;
+
+}
+aside .fas
+{
+	border: 3px solid rgb(253, 67, 69);
+	border-radius: 50%;
+	color: rgb(254, 254, 254);
+	font-size: 3em;
+	padding: 10px 10px 10px 10px;
+	margin: 50px 30px 0px 20px;
+}
+img
+{
+	margin: 40px 0px 0px 90px;
+	border: 3px solid rgb(253, 67, 69);
+	border-radius: 50%;
+}
+section
+{
+	display: flex;
+	display: block;
+	position: absolute;
+	margin-left: 400px;
+	color: rgb(28, 53, 71);
+}
+article
+{
+	margin-bottom: 135px;
+}
+
+article p
+{
+	margin-left: 350px;
+	margin-bottom: -90px;
+	font-family: 'robotolight';
+}
+article span
+{
+	position: absolute;
+	margin-top: -60px;
+
+}
 section h2
 {
 	border-bottom: 4px solid rgb(38, 53, 71);
@@ -71,97 +138,27 @@ h3
 {
 	margin-left: 350px;
 }
-p span
+#reco
 {
-	display: block;
-	color: white;
+	display: flex;
+	text-align: left;
+}
+#reco p
+{
+	margin-left: 0px;
+	color: rgb(38, 53, 71);
+	padding-right: 300px;
+}
+
+#reco h3
+{
+	margin-left: 0px;
+	color: rgb(38, 53, 71);
+	margin-top: -60px;
 }
 div
 {
-	font-size: 0.8em;
-	font-family: 'robotolight';
-	color: grey;
-}
-aside
-{
-	position: absolute;
-	line-height: 40px;
-	float: left;
-	width: 350px;
-	top: 0px;
-	padding-top: 158px;
-	background-color: rgb(38, 53, 71);
-	left: 0px;
-
-}
-aside h2
-{
-	color: rgb(38, 53, 71);
-	background-color: rgb(253, 253, 253);
-	font-size: 1.4em;
-	text-align: center;
-}
-aside p
-{
-	padding-left: 30px;
-	line-height: 35px;
-	padding-right: 20px;
-	margin-top: 35px;
-	margin-bottom: 35px;
-	color: white;
-
-}
-
-aside .fas
-{
-	margin-right: -5px;
-	color: rgb(253, 253, 253);
-	font-size: 2.2em;
-	letter-spacing: 1em;
-	width: 35.2px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	margin-left: 40px;
-	margin-top: 35px;
-	border: 3px solid rgb(253, 67, 69);
-	border-radius: 50%;
-}
-
-article
-{
-	margin-bottom: 135px;
-}
-
-article p
-{
-	margin-left: 350px;
-}
-article span
-{
-	position: absolute;
-	margin-top: -60px;
-
-}
-section
-{
-	margin-left: 350px;
-	margin-top: 70px;
-	padding: 20px;
-}
-img
-{
-	padding-left: 100px;
-}
-
-.contenu
-{
-	text-align: left;
-	padding-left: 15px;
-	font-size: 0.85em;
-	font-family: 'robotolight';
-	margin-left: 350px;
+	color: rgb(171, 171, 171);
 }
 .fa, .fab, .fad, .fal, .far, .fas
 {
@@ -173,143 +170,4 @@ img
     line-height: 1;
     color: rgb(253, 67, 69);
     font-size: 1.4em;
-}
-.propos
-{
-	padding-bottom: 250px;
-	line-height: 20px;
-}
-img
-{
-	padding: 0.5px;
-	margin-left: 50px;
-	margin-top: -127px;
-	border: 3px solid rgb(253, 67, 69);
-	border-radius: 50%;
-}
-aside .fa-circle
-{
-	color: green;
-	font-size: 0.7em;
-	border: none;
-	padding: 0px 0px 0px 0px;
-	display: inline;
-	margin-left: 5px;
-	left: 10px;
-}
-.lang
-{
-	color: rgb(254, 202, 7);
-}
-.Respon
-{
-	visibility: hidden;
-}
-@media screen and (max-width: 690px)
-{
-	*
-	{
-		pointer-events: all;
-	}
-	body
-	{
-		max-width: 690px;
-		margin: auto;
-	}
-	h1
-	{
-		position: relative;
-		margin-left: 160px;
-		display: block;
-		font-size: 60px;
-	}
-	aside
-	{
-		float: none;
-		position: relative;
-		width: auto;
-		font-size: 12px;
-		padding: 10px 0px 10px 0px;
-
-
-	}
-	aside h2
-	{
-		display: inline-block; 
-		text-align: left;
-		padding: 0px 1px 0px 1px;
-		margin: 0px 7px 0px 7px;
-		box-shadow: 3px 3px 0px rgb(253, 67, 69);
-		border-radius: 5px;
-
-
-	}
-	aside h2:hover
-	{
-		background-color: rgb(214, 214, 214);
-
-	}
-	img
-	{
-		position: absolute;
-		width: 90px;
-		margin-top: -169px;
-		margin-left: 35px;
-	}
-	aside p
-	{
-		display: none;
-		padding: 0px 5px 0px 5px;
-		margin: 0px 0px 0px 0px;
-		width: 150px;
-	}
-	aside .fas
-	{
-		display: none;
-	}
-	section
-	{
-		position: absolute;
-		margin-left: 10px;
-		margin-top: 20px;
-		padding: 20px;
-	}
-	article
-	{
-		pointer-events: none;
-		margin-bottom: 40px;
-
-	}
-	.Respon
-	{
-		visibility: visible;
-		border: none;
-	}
-	span .underlined
-	{
-	margin-left: -35px;
-	}
-	.moi
-	{
-		width: 580px;
-		line-height: 30px;
-	}
-	i.fas.fa-basketball-ball
-	{
-		font-size: 60px; 
-	}
-	i.fas.fa-snowboarding
-	{
-		font-size: 60px;
-	}
-	i.fas.fa-dice-d20
-	{
-		font-size: 60px;
-	}
-	.loisirs
-	{
-		width: 580px;
-		line-height: 30px;
-	}
-	
 }
