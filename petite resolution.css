@@ -3,11 +3,17 @@
 	aside
 	{
 		position: static;
-		width: auto;
+		width: 550px;
+		margin-left: 10px;
+	}
+	img
+	{
+		margin-left: 185px;
 	}
 	#loisir
 	{
 		padding-bottom: 40px;
+		margin-left: 103px;
 	}
 
 	header
@@ -17,11 +23,11 @@
 	section
 	{
 		position: static;
+		max-width: 500px;
 		margin-left: 20px;
 	}
 	#reco
 	{
 		flex-direction: column-reverse;
-		flex-wrap: nowrap;
 	}
 }
