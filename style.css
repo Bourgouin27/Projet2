@@ -29,11 +29,11 @@ header
 	display: flex;
 	flex-direction: column;
 	color: rgb(28, 53, 71);
+	margin-left: 550px;
 }
 h1
 {
 	font-family: 'robotolight';
-	margin-left: 550px;
 	font-size: 70px;
 }
 h1 .redcolor
@@ -105,7 +105,6 @@ img
 }
 section
 {
-	display: flex;
 	display: block;
 	position: absolute;
 	margin-left: 400px;

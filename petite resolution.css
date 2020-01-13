@@ -1,0 +1,27 @@
+@media screen and (max-width: 690px)
+{
+	aside
+	{
+		position: static;
+		width: auto;
+	}
+	#loisir
+	{
+		padding-bottom: 40px;
+	}
+
+	header
+	{
+		margin-left: 50px;
+	}
+	section
+	{
+		position: static;
+		margin-left: 20px;
+	}
+	#reco
+	{
+		flex-direction: column-reverse;
+		flex-wrap: nowrap;
+	}
+}
