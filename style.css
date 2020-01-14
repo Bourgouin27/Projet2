@@ -24,6 +24,10 @@
 {
 	font-family: 'robotoregular';
 }
+body
+	{
+		overflow-x: hidden
+	}
 header
 {
 	display: flex;
