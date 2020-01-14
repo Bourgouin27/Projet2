@@ -3,17 +3,22 @@
 	aside
 	{
 		position: static;
-		width: 550px;
-		margin-left: 10px;
+		width: 450px;
+		margin: auto;
+	}
+	.propos
+	{
+		padding: 30px 60px 30px 60px;
+		margin: auto;
 	}
 	img
 	{
-		margin-left: 185px;
+		margin-left: 140px;
 	}
 	#loisir
 	{
 		padding-bottom: 40px;
-		margin-left: 103px;
+		margin: auto;
 	}
 
 	header
@@ -25,9 +30,11 @@
 		position: static;
 		max-width: 500px;
 		margin-left: 20px;
+		margin: auto;
 	}
-	#reco
+	#reco p
 	{
-		flex-direction: column-reverse;
+		padding-right: 48px;
+
 	}
 }
