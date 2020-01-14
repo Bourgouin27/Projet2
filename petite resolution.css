@@ -28,7 +28,8 @@
 	header
 	{
 		display: flex;
-		margin-left: 50px;
+		text-align: center;
+		min-width: 470px;
 	}
 	section
 	{
