@@ -26,14 +26,15 @@
 }
 body
 	{
-		overflow-x: hidden
+		overflow-x: hidden;
 	}
 header
 {
-	display: flex;
-	flex-direction: column;
+	min-width: 150px;
+	text-align: center;
 	color: rgb(28, 53, 71);
-	margin-left: 550px;
+
+
 }
 h1
 {
@@ -54,7 +55,6 @@ h1 span
 {
 	display: block;
 	font-size: 0.4em;
-	margin-bottom: 50px;
 }
 
 aside
@@ -76,6 +76,7 @@ aside h2
 	font-size: 1.4em;
 	text-align: center;
 	padding: 5px 0px 5px 0px;
+
 }
 .propos
 {
@@ -110,9 +111,9 @@ img
 section
 {
 	display: block;
-	position: absolute;
 	margin-left: 400px;
 	color: rgb(28, 53, 71);
+	width: 750px;
 }
 article
 {

@@ -1,8 +1,8 @@
-@media screen and (max-width: 690px)
+@media screen and (max-width: 740px)
 {
 	body
 	{
-		overflow-x: hidden
+		overflow-x: hidden;
 	}
 	aside
 	{
@@ -27,6 +27,7 @@
 
 	header
 	{
+		display: flex;
 		margin-left: 50px;
 	}
 	section
@@ -41,4 +42,8 @@
 		padding-right: 48px;
 
 	}
+}
+@viewport
+{
+  width: device-width;
 }
