@@ -1,5 +1,9 @@
 @media screen and (max-width: 690px)
 {
+	body
+	{
+		overflow-x: hidden
+	}
 	aside
 	{
 		position: static;
