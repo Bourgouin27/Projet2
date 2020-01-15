@@ -25,24 +25,24 @@
 	font-family: 'robotoregular';
 }
 body
-	{
+{
 		overflow-x: hidden;
-	}
+}
 header
 {
-
 	text-align: center;
 	color: rgb(28, 53, 71);
-
-
+	font-family: 'robotolight';	
 }
 h1
 {
-	font-family: 'robotolight';
+
+	font-family: 'robotolight';	
 	font-size: 70px;
 }
 h1 .redcolor
 {
+	font-family: 'robotolight';
 	color: rgb(253, 67, 69);
 	font-style: normal;
 }
@@ -55,6 +55,7 @@ h1 span
 {
 	display: block;
 	font-size: 0.4em;
+	padding-bottom: 60px;
 }
 
 aside
@@ -63,10 +64,11 @@ aside
 	position: absolute;
 	flex-direction: column;
 	width: 350px;
-	bottom: -820px !important;
+	height: 1500px;
 	background-color: rgb(28, 53, 71);
 	color: white;
 	top: 0px;
+	left: 0px;
 
 }
 aside h2
@@ -104,9 +106,10 @@ aside .fas
 }
 img
 {
-	margin: 40px 0px 0px 90px;
+	margin: 40px 0px 100px 90px;
 	border: 3px solid rgb(253, 67, 69);
 	border-radius: 50%;
+	align-self: center;
 }
 section
 {
@@ -122,7 +125,7 @@ article
 
 article p
 {
-	margin-left: 350px;
+	margin-left: 300px;
 	margin-bottom: -90px;
 	font-family: 'robotolight';
 }
@@ -140,7 +143,7 @@ section h2
 }
 h3
 {
-	margin-left: 350px;
+	margin-left: 300px;
 }
 #reco
 {
@@ -151,7 +154,7 @@ h3
 {
 	margin-left: 0px;
 	color: rgb(38, 53, 71);
-	padding-right: 300px;
+	padding-right: 200px;
 }
 
 #reco h3

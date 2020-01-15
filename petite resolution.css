@@ -28,8 +28,8 @@
 	header
 	{
 		display: flex;
-		text-align: center;
 		min-width: 470px;
+		margin: auto;
 	}
 	section
 	{
@@ -40,8 +40,7 @@
 	}
 	#reco p
 	{
-		padding-right: 48px;
-
+		padding-right: 48px;	
 	}
 }
 @viewport
