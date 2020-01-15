@@ -6,9 +6,11 @@
 	}
 	aside
 	{
+		display: flex;
 		position: static;
-		width: auto;
+		width: 450px;
 		margin: auto;
+		align-self: center;
 	}
 	.propos
 	{
