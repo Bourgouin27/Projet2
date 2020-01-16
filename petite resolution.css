@@ -10,7 +10,6 @@
 		position: static;
 		width: 450px;
 		margin: auto;
-		align-self: center;
 	}
 	.propos
 	{
@@ -30,6 +29,7 @@
 	header
 	{
 		display: flex;
+		text-align: center;
 		min-width: 470px;
 		margin: auto;
 	}

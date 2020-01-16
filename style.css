@@ -30,9 +30,9 @@ body
 }
 header
 {
-	text-align: center;
 	color: rgb(28, 53, 71);
-	font-family: 'robotolight';	
+	font-family: 'robotolight';
+	margin-left: 450px;	
 }
 h1
 {
