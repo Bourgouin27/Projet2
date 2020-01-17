@@ -4,25 +4,9 @@
 	{
 		overflow-x: hidden;
 	}
-	aside
-	{
-		display: flex;
-		position: static;
-		width: 450px;
-		margin: auto;
-	}
-	.propos
-	{
-		padding: 30px 60px 30px 60px;
-		margin: auto;
-	}
-	img
-	{
-		margin-left: 140px;
-	}
+
 	#loisir
 	{
-		padding-bottom: 40px;
 		margin: auto;
 	}
 
@@ -35,17 +19,20 @@
 	}
 	section
 	{
-		position: static;
 		max-width: 500px;
-		margin-left: 20px;
-		margin: auto;
+		flex-direction: column;
 	}
-	#reco p
+	aside
 	{
-		padding-right: 48px;	
+		align-self: flex-end;
+		order:1;
+		margin: auto;
+
 	}
-}
-@viewport
-{
-  width: device-width;
+	.element
+	{
+		display: inline-flex;
+		flex-direction: column;
+	}
+
 }

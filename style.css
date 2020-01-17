@@ -27,18 +27,19 @@
 body
 {
 		overflow-x: hidden;
+		position: static;
 }
 header
 {
 	color: rgb(28, 53, 71);
 	font-family: 'robotolight';
-	margin-left: 450px;	
+	padding-left: 50px
 }
 h1
 {
 
 	font-family: 'robotolight';	
-	font-size: 70px;
+	font-size: 5.2em;
 }
 h1 .redcolor
 {
@@ -61,14 +62,10 @@ h1 span
 aside
 {
 	display: flex;
-	position: absolute;
 	flex-direction: column;
 	width: 350px;
-	height: 1500px;
 	background-color: rgb(28, 53, 71);
 	color: white;
-	top: 0px;
-	left: 0px;
 
 }
 aside h2
@@ -77,13 +74,9 @@ aside h2
 	background-color: rgb(253, 253, 253);
 	font-size: 1.4em;
 	text-align: center;
-	padding: 5px 0px 5px 0px;
+	padding: 4px;
+}
 
-}
-.propos
-{
-	padding-bottom: 400px;
-}
 aside p
 {
 	line-height: 35px;
@@ -93,6 +86,7 @@ aside p
 #loisir
 {
 	display: flex;
+	padding-bottom: 20px;
 
 }
 aside .fas
@@ -106,67 +100,62 @@ aside .fas
 }
 img
 {
-	margin: 40px 0px 100px 90px;
-	border: 3px solid rgb(253, 67, 69);
+	display: flex;
 	border-radius: 50%;
-	align-self: center;
+	border: 3px solid
+    rgb(253, 67, 69);
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    margin: 30px 10px 30px 90px;
 }
 section
 {
-	display: block;
-	margin-left: 400px;
+	display: flex;
 	color: rgb(28, 53, 71);
-	width: 750px;
+	align-items: stretch;
+}
+main
+{
+	padding-left: 20px;
+	width: 60%;
+}
+main section
+{
+	display: block;
 }
 article
 {
-	margin-bottom: 135px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	margin-left: 50px;
 }
-
+.date
+{
+	width: 30%;
+}
+.content
+{
+	width: 70%;
+}
 article p
 {
-	margin-left: 300px;
-	margin-bottom: -90px;
 	font-family: 'robotolight';
 }
 article span
 {
-	position: absolute;
-	margin-top: -60px;
-
+	display: block;
+	color: rgb(176,190,197);
 }
-section h2
+.entete
 {
 	border-bottom: 4px solid rgb(38, 53, 71);
     padding-bottom: 15px;
-    padding-left: 40px;
-}
-h3
-{
-	margin-left: 300px;
-}
-#reco
-{
-	display: flex;
-	text-align: left;
-}
-#reco p
-{
-	margin-left: 0px;
-	color: rgb(38, 53, 71);
-	padding-right: 200px;
+    margin-left: 50px;
+    font-size: 1.6em;
 }
 
-#reco h3
-{
-	margin-left: 0px;
-	color: rgb(38, 53, 71);
-	margin-top: -60px;
-}
-div
-{
-	color: rgb(171, 171, 171);
-}
 .fa, .fab, .fad, .fal, .far, .fas
 {
 	margin-right: 30px;
