@@ -4,6 +4,13 @@
 	{
 		overflow-x: hidden;
 	}
+	main
+	{
+		display: block;
+		width: 100%;
+		padding-left: 0px;
+
+	}
 
 	#loisir
 	{
@@ -19,12 +26,11 @@
 	}
 	section
 	{
-		max-width: 500px;
+		max-width: 600px;
 		flex-direction: column;
 	}
 	aside
 	{
-		align-self: flex-end;
 		order:1;
 		margin: auto;
 
