@@ -27,6 +27,7 @@
 body
 {
 		overflow-x: hidden;
+		width: max-content;
 }
 header
 {
@@ -82,6 +83,16 @@ aside p
 	margin: 0px 10px 0px 30px;
 
 }
+.baseline
+{
+	display: block;
+	font-style: normal;
+
+}
+.propos p
+{
+	align-content: baseline;
+}
 #loisir
 {
 	display: flex;
@@ -116,6 +127,7 @@ section
 }
 main
 {
+	position: static;
 	padding-left: 20px;
 	width: 60%;
 }
