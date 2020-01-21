@@ -33,7 +33,7 @@ header
 {
 	color: rgb(28, 53, 71);
 	font-family: 'robotolight';
-	padding-left: 50px
+	padding-left: 2.5em;
 }
 h1
 {
@@ -56,14 +56,14 @@ h1 span
 {
 	display: block;
 	font-size: 0.4em;
-	padding-bottom: 60px;
+	padding-bottom: 2em;
 }
 
 aside
 {
 	display: flex;
 	flex-direction: column;
-	width: 350px;
+	width: 22em;
 	background-color: rgb(28, 53, 71);
 	color: white;
 
@@ -74,12 +74,12 @@ aside h2
 	background-color: rgb(253, 253, 253);
 	font-size: 1.4em;
 	text-align: center;
-	padding: 4px;
+	padding: 0.2em;
 }
 
 aside p
 {
-	line-height: 35px;
+	line-height: 2.3em;
 	margin: 0px 10px 0px 30px;
 
 }
@@ -96,7 +96,7 @@ aside p
 #loisir
 {
 	display: flex;
-	padding-bottom: 20px;
+	padding-bottom: 1em;
 
 }
 aside .fas
@@ -114,8 +114,8 @@ img
 	border-radius: 50%;
 	border: 3px solid
     rgb(253, 67, 69);
-    width: 160px;
-    height: 160px;
+    width: 50%;
+    height: 50%;
     overflow: hidden;
     margin: 30px 10px 30px 90px;
 }
@@ -128,7 +128,7 @@ section
 main
 {
 	position: static;
-	padding-left: 20px;
+	padding-left: 1.2em;
 	width: 60%;
 }
 main section
