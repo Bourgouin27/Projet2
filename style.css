@@ -114,8 +114,8 @@ img
 	border-radius: 50%;
 	border: 3px solid
     rgb(253, 67, 69);
-    width: 50%;
-    height: 50%;
+    width: 160px;
+    height: 160px;
     overflow: hidden;
     margin: 30px 10px 30px 90px;
 }
