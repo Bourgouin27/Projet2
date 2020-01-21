@@ -34,8 +34,9 @@
 	}
 	section
 	{
-		max-width: 600px;
+		max-width: 700px;
 		flex-direction: column;
+		margin: auto;
 	}
 	aside
 	{
