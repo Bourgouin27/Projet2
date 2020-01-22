@@ -27,7 +27,6 @@
 body
 {
 		overflow-x: hidden;
-		width: max-content;
 }
 header
 {
@@ -96,8 +95,6 @@ aside p
 #loisir
 {
 	display: flex;
-	padding-bottom: 1em;
-
 }
 aside .fas
 {
