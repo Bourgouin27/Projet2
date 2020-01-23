@@ -27,6 +27,7 @@
 body
 {
 		overflow-x: hidden;
+		min-width: 1037px;
 }
 header
 {
