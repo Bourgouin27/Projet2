@@ -6,7 +6,12 @@
 		text-align: justify;
 		padding-top: 0.6em;
 	}
-	
+	article
+	{
+		flex-direction: column;
+		margin-bottom: 0.6em;
+	}
+
 }
 @media screen and (max-width: 768px)
 {
@@ -38,10 +43,7 @@
 		padding-left: 0%;
 
 	}
-	#loisir
-	{
-		margin: auto;
-	}
+
 
 	header
 	{
@@ -67,7 +69,7 @@
 	aside
 	{
 		order:1;
-		margin: auto;
+		width: 100%;
 	}
 	.propos
 	{
