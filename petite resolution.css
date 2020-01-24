@@ -4,7 +4,9 @@
 	{
 		display: block;
 		text-align: justify;
+		padding-top: 0.6em;
 	}
+	
 }
 @media screen and (max-width: 768px)
 {
