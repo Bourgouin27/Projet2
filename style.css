@@ -80,8 +80,8 @@ aside h2
 aside p
 {
 	line-height: 2.3em;
-	margin: 0px 10px 0px 30px;
-
+	margin: 0px 30px 0px 30px;
+	text-align: justify;
 }
 aside #loisir p
 {
@@ -100,6 +100,7 @@ aside #loisir p
 .propos p
 {
 	align-content: baseline;
+	text-align: justify;
 }
 #loisir
 {
@@ -108,7 +109,11 @@ aside #loisir p
 	flex-direction: column;
 
 }
-
+ul
+{
+	list-style: none;
+	padding: 0px;
+}
 aside .fas
 {
 	border: 3px solid rgb(253, 67, 69);
@@ -116,7 +121,7 @@ aside .fas
 	color: rgb(254, 254, 254);
 	font-size: 3em;
 	padding: 10px;
-	margin: 0;
+	margin: 25px 10px;
 }
 img
 {
