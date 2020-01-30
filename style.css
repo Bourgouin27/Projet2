@@ -79,7 +79,7 @@ aside h2
 
 aside p
 {
-	line-height: 2.3em;
+	line-height: 2.0em;
 	margin: 0px 30px 0px 30px;
 	text-align: justify;
 }
@@ -87,7 +87,7 @@ aside #loisir p
 {
 	margin: 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	padding-bottom: 0.5em;
 }
 
