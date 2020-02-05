@@ -21,6 +21,7 @@
 		width: 100%;
 		align-content: center;
 		min-width: 550px;
+		flex-direction: column;
 	}
 	h1
 	{
