@@ -28,6 +28,9 @@ body
 {
 		overflow-x: hidden;
 		min-width: 1037px;
+		display: flex;
+	color: rgb(28, 53, 71);
+	align-items: stretch;
 }
 header
 {
